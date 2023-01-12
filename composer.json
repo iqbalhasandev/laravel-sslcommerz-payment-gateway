@@ -60,10 +60,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Nanopkg\\SslcommerzPaymentGateway\\SslcommerzPaymentGatewayServiceProvider"
+                "Nanopkg\\SslcommerzPaymentGateway\\SslcommerzServiceProvider"
             ],
             "aliases": {
-                "SslcommerzPaymentGateway": "Nanopkg\\SslcommerzPaymentGateway\\Facades\\SslcommerzPaymentGateway"
+                "SslcommerzPaymentGateway": "Nanopkg\\SslcommerzPaymentGateway\\Facades\\Sslcommerz"
             }
         }
     },

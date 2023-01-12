@@ -7,10 +7,10 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @see \Nanopkg\SslcommerzPaymentGateway\SslcommerzPaymentGateway
  */
-class SslcommerzPaymentGateway extends Facade
+class Sslcommerz extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Nanopkg\SslcommerzPaymentGateway\SslcommerzPaymentGateway::class;
+        return \Nanopkg\SslcommerzPaymentGateway\Sslcommerz::class;
     }
 }

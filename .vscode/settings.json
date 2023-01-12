@@ -1,3 +1,13 @@
 {
-    "cSpell.words": ["gwprocess", "validationserver"]
+    "cSpell.words": [
+        "CURLOPT",
+        "gwprocess",
+        "HTTPHEADER",
+        "POSTFIELDS",
+        "RETURNTRANSFER",
+        "sslcz",
+        "validationserver",
+        "VERIFYHOST",
+        "VERIFYPEER"
+    ]
 }

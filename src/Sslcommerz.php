@@ -2,6 +2,6 @@
 
 namespace Nanopkg\SslcommerzPaymentGateway;
 
-class SslcommerzPaymentGateway
+class Sslcommerz
 {
 }
