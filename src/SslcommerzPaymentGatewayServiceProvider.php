@@ -17,9 +17,6 @@ class SslcommerzPaymentGatewayServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravel-sslcommerz-payment-gateway')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-sslcommerz-payment-gateway_table')
-            ->hasCommand(SslcommerzPaymentGatewayCommand::class);
+            ->hasConfigFile(['sslcommerz']);
     }
 }

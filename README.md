@@ -15,17 +15,10 @@ You can install the package via composer:
 composer require nanopkg/laravel-sslcommerz-payment-gateway
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="laravel-sslcommerz-payment-gateway-migrations"
-php artisan migrate
-```
-
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag="laravel-sslcommerz-payment-gateway-config"
+php artisan vendor:publish --tag="sslcommerz-payment-gateway-config"
 ```
 
 This is the contents of the published config file:
@@ -35,17 +28,10 @@ return [
 ];
 ```
 
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="laravel-sslcommerz-payment-gateway-views"
-```
-
 ## Usage
 
 ```php
-$sslcommerzPaymentGateway = new Nanopkg\SslcommerzPaymentGateway();
-echo $sslcommerzPaymentGateway->echoPhrase('Hello, Nanopkg!');
+
 ```
 
 ## Testing
@@ -68,7 +54,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
--   [IQBAL HASAN](https://github.com/nanopkg)
+-   [IQBAL HASAN](https://github.com/iqbalhasandev)
 -   [All Contributors](../../contributors)
 
 ## License

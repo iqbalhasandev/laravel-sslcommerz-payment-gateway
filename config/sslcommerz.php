@@ -69,7 +69,7 @@ return [
     | value is used when need api domain url.
     |
     */
-    'api_domain' => config('sslcommerz-payment-gateway.mode') == 'sandbox' ? config('sslcommerz-payment-gateway.api_url.sandbox') : config('sslcommerz-payment-gateway.api_url.live'),
+    'api_domain' => config('sslcommerz.mode') == 'sandbox' ? config('sslcommerz.api_url.sandbox') : config('sslcommerz.api_url.live'),
 
     /*
     |--------------------------------------------------------------------------

@@ -36,7 +36,6 @@
     "autoload": {
         "psr-4": {
             "Nanopkg\\SslcommerzPaymentGateway\\": "src",
-            "Nanopkg\\SslcommerzPaymentGateway\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
