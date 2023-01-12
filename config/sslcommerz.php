@@ -34,7 +34,7 @@ return [
     | value is used to authenticate the store api.
     |
     */
-    'store_id' => env('SSLCOMMERZ_STORE_ID', null),
+    'store_password' => env('SSLCOMMERZ_STORE_PASSWORD', null),
 
     /*
     |--------------------------------------------------------------------------
